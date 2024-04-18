@@ -1,23 +1,24 @@
 
 @import url('font.css');
-
-body {
-    font-family: 'Gilroy', sans-serif;
-    background: url(img/home-dark-1.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex; 
-}
 *{
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Gilroy', sans-serif;
+    background: url(img/home-dark-1.png) no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: block; 
+}
+
 .nav-bar-wrap{
     margin-top: 37px;
     width: 100%;
     height: 56px;
     /* display: inline-flex; */
     position: fixed;
+    top: 0;
 }
 .nav-bar{
     width: 96.5%;
@@ -68,7 +69,7 @@ body {
     line-height: normal;
 }
 .menu-line{
-    border-left: 0.5px solid white; /* Adjust thickness and color as needed */
+    border-left: 0.5px solid white; 
     height: 23px;
 }
 .omni-chain-wrap{
@@ -156,4 +157,156 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.supported-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+}
+.supported{
+    width: 88.9%;
+    justify-content: center;
+    align-items:center;
+}
+.supported p{
+    color: #FFF;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-align: center;
+}
+.sup-logo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.everyday-wrap{
+    display: flex;
+    width: 100%;
+    margin-top: 195px;
+    justify-content: center;
+}
+.everyday{
+    width: 88.9%;
+    display: block;
+}
+.everyday-title{
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.everyday-card-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 64px;
+    margin-top: 64px;
+    gap: 40px;
+
+}
+.everyday-card{
+    width: 48%;
+    border: 0.5px solid #FFF;
+    background: rgba(171, 171, 171, 0.02);
+    display: block;
+    /* margin-bottom: 40px; */
+}
+.card-title{
+    width: 100%;
+    height: 29px;
+    margin-top: 21px;
+    margin-left: 24.5px;
+    color: #FFF;
+    font-family: Gilroy Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+.card-txt{
+    width: 100%;
+    color: #FFF;
+    font-family: Gilroy Regular;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.12px;
+    float: right;
+    text-align: end;
+    margin-top: 57px;
+    margin-right: 34.05px;
+    margin-bottom: 34.05px;
+}
+.restaking-wrap{
+    margin-top: 210px;
+    width: 100%;
+    font-family: 'Gilroy', sans-serif;
+    background: url(img/Section4-bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 550px;
+}
+.restaking{
+    width: 88.9%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 137px; */
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+.restaking .text-block{
+    margin:auto;
+}
+.restaking .text-block .title{
+    width: 50%;
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.restaking .text-block .text{
+    width: 75%;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+.img-block{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.img-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.advantages-wrap{
+    width: 100%;
+    margin-top: 102px;
 }
