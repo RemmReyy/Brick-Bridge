@@ -1,0 +1,144 @@
+
+@import url('font.css');
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    background: url(img/home-dark-1.png) no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar-wrap{
+    margin-top: 37px;
+    width: 100%;
+    height: 56px;
+    /* display: inline-flex; */
+    position: fixed;
+}
+.nav-bar{
+    width: 96.5%;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    border: 0.5px solid #FFF;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 51.442px 0px rgba(255, 255, 255, 0.05) inset;
+    backdrop-filter: blur(18.156171798706055px);
+    
+    
+}
+.logo{
+    display: flex;
+    width: 197.883px;
+    height: 56px;
+    align-items: center;
+    position: absolute;
+}
+.logo-txt{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20.324px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -18px;
+    text-align: center;
+}
+.nav-bar ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.nav-bar a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.menu-line{
+    border-left: 0.5px solid white; /* Adjust thickness and color as needed */
+    height: 23px;
+}
+.omni-chain-wrap{
+    width: 100%;
+    height: 439px;
+    margin-top: 186px;
+    display: flex;
+    justify-content: center;
+}
+.omni-chain{
+    width: 88.9%;
+    max-width: 1280px;
+    display: flex;
+    gap: 14.488%;
+}
+.omni-chain .text-grp{
+    margin-top: auto;
+}
+.omni-chain .text-grp .title{
+    width: 462px;
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.omni-chain .text-grp .text{
+    width: 614.689px;
+    color: #FFF;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin-top: 30px;
+}
+.access-btn{
+    width: 179.144px;
+    height: 43px;
+    margin-top: 54px;
+}
+.access-btn a{
+    text-decoration: none;
+    color: black;
+    color: #000;
+    font-family: Gilroy Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.12px;
+}
+.rect1{
+    width: 170.187px;
+    height: 43px;
+    background: linear-gradient(180deg, #6F73F5 0%, #D675AB 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.96px;
+}
+.rect1 p{
+    margin-right: 5.6px;
+    
+}
+.rect2{
+    width: 170.187px;
+    height: 43px;
+    background: #FFF;
+    margin-top: -43px;
+}
