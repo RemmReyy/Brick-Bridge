@@ -4,9 +4,9 @@
 body {
     font-family: 'Gilroy', sans-serif;
     background: url(img/home-dark-1.png) no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
-    display: flex;
+    display: flex; 
 }
 *{
     margin: 0;
@@ -83,6 +83,12 @@ body {
     max-width: 1280px;
     display: flex;
     gap: 14.488%;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 500px;
+    }
 }
 .omni-chain .text-grp{
     margin-top: auto;
@@ -141,4 +147,13 @@ body {
     height: 43px;
     background: #FFF;
     margin-top: -43px;
+}
+.img-wrap{
+    display: flex;
+    width: 37.5%;
+}
+.img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
