@@ -309,4 +309,158 @@ body {
 .advantages-wrap{
     width: 100%;
     margin-top: 102px;
+    display: flex;
+    justify-content: center;
+}
+.advantages{
+    width: 88.9%;
+    max-width: 1280px;
+    display: block;
+}
+.advantages .text-grp .title{
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.advantages .text-grp .text{
+    color: #FFF;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin-top: 30px;
+}
+.card-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.info-card{
+    border: 0.5px solid #FFF;
+    width: 32%;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 23px;
+}
+.info-card p{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy Medium;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.56px;
+}
+#card1{
+    background: url(img/bg1-dark.png) no-repeat;
+    background-size: cover;
+}
+#card1 p{
+    width: 43.8%;
+}
+#card2{
+    background: url(img/bg2-dark.png) no-repeat;
+    background-size: cover;
+}
+#card2 p{
+    width: 60%;
+}
+#card3{
+    background: url(img/bg3-dark.png) no-repeat;
+    background-size: cover;
+}
+#card3 p{
+    width: 60%;
+}
+#card4{
+    background: url(img/bg4-dark.png) no-repeat;
+    background-size: cover;
+}
+#card4 p{
+    width: 75%;
+}
+#card5{
+    background: url(img/bg5-dark.png) no-repeat;
+    background-size: cover;
+}
+#card5 p{
+    width: 60%;
+}
+#card6{
+    background: url(img/bg6-dark.png) no-repeat;
+    background-size: cover;
+}
+#card6 p{
+    width: 60%;
+}
+.ecosystem-wrap{
+    width: 100%;
+    display: flex;
+    margin-top: 240px;
+}
+.ecosystem{
+    width: 88.9%;
+    max-width: 1280px;
+    background: url(img/Section6-bg.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding-top: 66px;
+    padding-bottom: 200px
+}
+.ecosystem .text-grp{
+    width: 55.8%;
+    display: block;
+    margin: auto;
+}
+.ecosystem .text-grp .title{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.ecosystem .text-grp .text{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin-top: 30px;
+}
+.ecosystem .text-grp .number{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy Regular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.84px;
+    margin-top: 30px;
+}
+.ecosystem .text-grp .subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    margin-top: 15px;
 }
