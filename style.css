@@ -20,6 +20,7 @@ body {
     /* display: inline-flex; */
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 .nav-bar{
     width: 96.5%;
@@ -467,13 +468,14 @@ body {
 }
 .blog-wrap{
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 .blog{
     width: 88.9%;
     max-width: 1280px;
     display: block;
+    margin: auto;
 }
 .blog-txt-grp{
     width: 100%;
@@ -571,3 +573,124 @@ body {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.311);
   }   */
+  .security-wrap{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 295px;
+  }
+  .security{
+    width: 88.9%;
+    max-width: 1280px;
+    display: block;
+  }
+  .security .title{
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .security .text{
+    color: #FFF;
+    font-family: Gilroy UltraLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 1.92px;
+  }
+  .logo-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+  .logo-card{
+    width: 236px;
+    height: 88px;
+    border: 0.5px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+  }
+  .token-sale-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 267px;
+  }
+  .token-sale{
+    width: 36%;
+    display: block;
+    align-items:center;
+    justify-content: center;
+  }
+  .token-sale .title{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy Regular;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .timer-wrap{
+    width: 100%;
+    margin-top: 31px;
+    border: 0.453px solid #FFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 53px;
+  }
+  .timer-el{
+    width: 121px;
+    display: block;
+    justify-content: center;
+    align-items:center;
+    margin-top: 53px;
+  }
+  .timer-el .number{
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    }
+  .timer-el .text{
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+  }
+  #center-el{
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+  }
+  .buy-btn{
+    width: 179.144px;
+    height: 43px;
+    margin: auto;
+    margin-top: 75px;
+  }
+  .buy-btn a{
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.12px;
+  }
