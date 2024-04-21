@@ -44,13 +44,19 @@ const db = getFirestore(app);
     // Initialize Swiper after all slides are added
     var swiper = new Swiper('.swiper-container', {
         direction: "horizontal",
-        slidesPerView: 3,
-        spaceBetween: 30,
+        slidesPerView: 1,
+         spaceBetween: 30,
         loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        breakpoints:{
+            426:{
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+        }
     });
 })();
 

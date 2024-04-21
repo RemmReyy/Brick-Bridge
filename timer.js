@@ -1,6 +1,6 @@
 
         // Установите дату и время окончания таймера
-        var endTime = new Date('2024-04-21 19:46:00').getTime();
+        var endTime = new Date('2024-04-24T12:00:00Z').getTime();
 
         // Обновление таймера каждую секунду
         var timerInterval = setInterval(function() {

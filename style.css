@@ -63,6 +63,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    @media(max-width: 426px){
+        display: none;
+    }
 }
 .nav-bar a{
     display: block;
@@ -92,7 +95,10 @@ body {
         margin-top: 66px;
     }
     @media(max-width: 768px){
-        margin-top: 140px;
+        margin-top: 220px;
+    }
+    @media(max-width: 462px){
+        margin-top: 150px;
     }
 }
 .omni-chain{
@@ -109,9 +115,10 @@ body {
 }
 .omni-chain .text-grp{
     margin-top: auto;
+    width: 50%;
 }
 .omni-chain .text-grp .title{
-    width: 462px;
+    /* width: 462px; */
     color: #FFF;
     font-family: Gilroy Light;
     font-size: 48px;
@@ -121,9 +128,13 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 462px){
+       font-size: 24px;
+       text-align: center;
+    }
 }
 .omni-chain .text-grp .text{
-    width: 614.689px;
+    /* width: 614.689px; */
     color: #FFF;
     font-family: Gilroy UltraLight;
     font-size: 24px;
@@ -134,13 +145,24 @@ body {
     margin-top: 30px;
     @media(max-width: 1024px){
         font-size: 18px;
-        width: 437px;
+        /* width: 437px; */
     }
+    @media(max-width: 462px){
+        font-size: 14px;
+        text-align: center;
+     }
 }
 .access-btn{
     width: 179.144px;
     height: 43px;
     margin-top: 54px;
+    @media(max-width: 462px){
+       margin: auto;
+       margin-top: 30px;
+     }
+     @media(max-width: 426px){
+        width: 140px;
+      }
 }
 .access-btn a{
     text-decoration: none;
@@ -154,7 +176,7 @@ body {
     letter-spacing: 1.12px;
 }
 .rect1{
-    width: 170.187px;
+    width: 100%;
     height: 43px;
     background: linear-gradient(180deg, #6F73F5 0%, #D675AB 100%);
     display: flex;
@@ -167,14 +189,14 @@ body {
     
 }
 .rect2{
-    width: 170.187px;
+    width: 100%;
     height: 43px;
     background: #FFF;
     margin-top: -43px;
 }
 .img-wrap{
     display: flex;
-    width: 37.5%;
+    width: 50%;
 }
 .img-wrap img{
     width: 100%;
@@ -208,6 +230,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+    @media(max-width: 462px){
+        gap: 50px;
+     }
 }
 .everyday-wrap{
     display: flex;
@@ -233,17 +258,19 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 462px){
+        font-size: 24px;
+     }
 }
 .everyday-card-wrap{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 95%;
     margin-left: 64px;
     margin-top: 64px;
     gap: 40px;
     @media(max-width: 1024px){
-       gap: 20px;
+       gap: 10px;
     }
     @media(max-width: 768px){
        justify-content: center;
@@ -261,8 +288,6 @@ body {
     }
 }
 .card-title{
-    width: 100%;
-    height: 29px;
     margin-top: 21px;
     margin-left: 24.5px;
     color: #FFF;
@@ -275,9 +300,12 @@ body {
     @media(max-width: 1024px){
         font-size: 18px;
     }
+    @media(max-width: 462px){
+        font-size: 14px;
+     }
+    
 }
 .card-txt{
-    width: 100%;
     color: #FFF;
     font-family: Gilroy Regular;
     font-size: 64px;
@@ -293,6 +321,9 @@ body {
     @media(max-width: 1024px){
         font-size: 45px;
     }
+    @media(max-width: 462px){
+        font-size: 32px;
+     }
 }
 .restaking-wrap{
     margin-top: 210px;
@@ -306,9 +337,14 @@ body {
     @media(max-width: 1024px){
         background: url(img/Section4-bg-1024.png) no-repeat;
         background-size: cover;
-        @media (max-width: 768px) {
-            padding-bottom: 250px;
-        }
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 250px;
+    }
+    @media(max-width: 426px){
+        background: url(img/Section4-bg-425.png) no-repeat;
+        background-size: contain;
+        padding-bottom: 10px;
     }
    
 }
@@ -325,12 +361,22 @@ body {
         align-items: center;
         margin-top: 50px;
     }
+    @media (max-width: 462px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 .restaking .text-block{
     margin:auto;
+    width: 60%;
+    @media (max-width: 462px) {
+       width: 100%;
+    }
 }
 .restaking .text-block .title{
-    width: 50%;
+    /* width: 50%; */
     color: #FFF;
     font-family: Gilroy Light;
     font-size: 48px;
@@ -339,13 +385,17 @@ body {
     line-height: normal;
     @media(max-width: 1024px){
         font-size: 34px;
-        @media(max-width: 768px){
-            font-size: 28px;
-        }
     }
+    @media(max-width: 768px){
+        font-size: 28px;
+    }
+    @media(max-width: 462px){
+        font-size: 24px;
+        text-align: center;
+     }
 }
 .restaking .text-block .text{
-    width: 75%;
+    /* width: 75%; */
     margin-top: 30px;
     color: #FFF;
     font-family: Gilroy UltraLight;
@@ -355,16 +405,20 @@ body {
     line-height: normal;
     letter-spacing: 1.92px;
     @media(max-width: 1024px){
-        font-size: 18px;
-        @media(max-width: 768px){
-            font-size: 14px;
-        }
+        font-size: 18px; 
     }
+    @media(max-width: 768px){
+        font-size: 14px;
+    }
+    @media(max-width: 462px){
+        font-size: 14px;
+        text-align: center;
+     }
     
 }
-.img-block{
+.restaking .img-block{
     display: flex;
-    width: 60%;
+    width: 40%;
     margin: auto;
     @media(max-width: 768px){
         width: 50%;
@@ -382,9 +436,12 @@ body {
     justify-content: center;
     @media(max-width: 1024px){
         margin-top: 73px;
-        @media(max-width: 768px){
-            margin-top: 150px;
-        }
+    }
+    @media(max-width: 768px){
+        margin-top: 150px;
+    }
+    @media(max-width: 426px){
+       margin-top: 30px;
     }
 }
 .advantages{
@@ -402,6 +459,9 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 426px){
+        font-size: 24px;
+    }
 }
 .advantages .text-grp .text{
     color: #FFF;
@@ -415,6 +475,9 @@ body {
     @media(max-width: 1024px){
         font-size: 18px;
     }
+    @media(max-width: 426px){
+        font-size: 14px;
+    }
 }
 .card-wrap{
     width: 100%;
@@ -425,7 +488,9 @@ body {
     @media(max-width: 768px){
         gap: 15px;
     }
-    
+    @media(max-width: 426px){
+        justify-content: center;
+    }
 }
 .info-card{
     border: 0.5px solid #FFF;
@@ -532,6 +597,9 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 426px){
+        font-size: 24px;
+    }
 }
 .ecosystem .text-grp .text{
     color: #FFF;
@@ -545,6 +613,9 @@ body {
     margin-top: 30px;
     @media(max-width: 1024px){
         font-size: 18px;
+    }
+    @media(max-width: 426px){
+        font-size: 14px;
     }
 }
 .ecosystem .text-grp .number{
@@ -560,6 +631,9 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 426px){
+        font-size: 24px;
+    }
 }
 .ecosystem .text-grp .subtitle{
     color: #FFF;
@@ -574,6 +648,9 @@ body {
     @media(max-width: 1024px){
         font-size: 18px;
     }
+    @media(max-width: 426px){
+        font-size: 14px;
+    }
 }
 .blog-wrap{
     width: 100%;
@@ -581,10 +658,10 @@ body {
     justify-content: center;
     @media(max-width: 1024px){
         margin-top: 150px;
-        @media(max-width: 768px){
-           margin-top: 50px;
-        }
     }
+    @media(max-width: 768px){
+        margin-top: 50px;
+     }
 }
 .blog{
     width: 88.9%;
@@ -608,6 +685,9 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 426px){
+        font-size: 24px;
+    }
 }
 .btn-wrap{
     width: 140px;
@@ -617,11 +697,30 @@ body {
     align-items:center;
     
 }
+.swiper-button-next{
+    @media(max-width: 426px){
+        display: none !important; 
+    }
+}
+.swiper-button-prev{
+    @media(max-width: 426px){
+        display: none !important; 
+    }
+}
 .swiper-button-next:after{
     color:#FFF;
+    z-index: -100;
+    @media(max-width: 426px){
+        display: none !important; 
+    }
 }
 .swiper-button-prev:after{
     color:#FFF;
+    z-index: -100;
+    @media(max-width: 426px){
+        display: none !important; 
+    }
+    
 }
 .overflow-swiper{
     overflow-x: hidden;
@@ -658,6 +757,10 @@ body {
         width: 210px;
         height: 220px;
     }
+    @media(max-width: 426px){
+        width: 100%; 
+        height: 280px;
+    }
     
   }
   .post-card .card-title {
@@ -683,6 +786,9 @@ body {
     @media(max-width: 1024px){
         margin-top: 210px;
     }
+    @media(max-width: 426px){
+        margin-top: 100px; 
+    }
   }
   .security{
     width: 88.9%;
@@ -699,6 +805,9 @@ body {
     @media(max-width: 1024px){
         font-size: 34px;
     }
+    @media(max-width: 426px){
+        font-size: 24px; 
+    }
   }
   .security .text{
     color: #FFF;
@@ -711,6 +820,9 @@ body {
     @media(max-width: 1024px){
         font-size: 18px;
         margin-top: 22px;
+    }
+    @media(max-width: 426px){
+       font-size: 14px; 
     }
   }
   .logo-wrap{
@@ -744,6 +856,9 @@ body {
     display: block;
     align-items:center;
     justify-content: center;
+    @media(max-width: 426px){
+       width: 60%; 
+    }
   }
   .token-sale .title{
     color: #FFF;
@@ -755,6 +870,10 @@ body {
     line-height: normal;
     @media(max-width: 1024px){
         font-size: 28px;
+    }
+    @media(max-width: 426px){
+
+        font-size: 24px; 
     }
   }
   .timer-wrap{
@@ -814,6 +933,11 @@ body {
     @media(max-width: 768px){
         margin-top: 50px;
     }
+    @media(max-width: 425px){
+        width: 140px;
+        margin: auto;
+        margin-top: 20px;
+      }
   }
   .buy-btn a{
     text-decoration: none;
@@ -857,9 +981,13 @@ body {
     line-height: normal;
     /* margin-left: -18px; */
     text-align: center;
+    @media(max-width: 425px){
+        font-size: 14px;
+      }
 }
 .last-section .text{
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     margin-top: 15px;
     color: #FFF;
     font-family: Gilroy Light;
@@ -867,6 +995,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 425px){
+        font-size: 12px;
+      }
 }
 .footer-wrap{
     width: 100%;
@@ -893,4 +1024,7 @@ body {
     @media(max-width: 1024px){
         font-size: 12px;
     }
+    @media(max-width: 425px){
+        font-size: 10px;
+      }
 }
