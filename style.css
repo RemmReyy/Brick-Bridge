@@ -694,3 +694,66 @@ body {
     line-height: normal;
     letter-spacing: 1.12px;
   }
+  .last-section-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 126px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+  }
+  .last-section{
+    width: 88.9%;
+    max-width: 1280px;
+    display: block;
+  }
+  .last-section .logo-last{
+    display: flex;
+    width: 197.883px;
+    height: 56px;
+    align-items: center;
+}
+.last-section .logo-txt-last{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20.324px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin-left: -18px; */
+    text-align: center;
+}
+.last-section .text{
+    width: 340px;
+    margin-top: 15px;
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer-wrap{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+.footer-txt{
+    width: 88.9%;
+    max-width: 1280px;
+    display: flex;
+    gap: 32px;
+}
+.footer-txt .text{
+    display: block;
+    color: #FFF;
+    font-family: Gilroy Light;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
