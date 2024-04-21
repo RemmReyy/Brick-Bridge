@@ -80,6 +80,9 @@ body {
     margin-top: 186px;
     display: flex;
     justify-content: center;
+    @media(max-width: 1024px){
+        margin-top: 66px;
+    }
 }
 .omni-chain{
     width: 88.9%;
@@ -104,6 +107,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .omni-chain .text-grp .text{
     width: 614.689px;
@@ -115,6 +121,10 @@ body {
     line-height: normal;
     letter-spacing: 1.92px;
     margin-top: 30px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+        width: 437px;
+    }
 }
 .access-btn{
     width: 179.144px;
@@ -193,10 +203,14 @@ body {
     width: 100%;
     margin-top: 195px;
     justify-content: center;
+    @media(max-width: 1024px){
+        margin-top: 140px;
+    }
 }
 .everyday{
     width: 88.9%;
     display: block;
+    
 }
 .everyday-title{
     color: #FFF;
@@ -205,15 +219,21 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .everyday-card-wrap{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 95%;
     margin-left: 64px;
     margin-top: 64px;
     gap: 40px;
+    @media(max-width: 1024px){
+       gap: 20px;
+    }
 
 }
 .everyday-card{
@@ -222,6 +242,9 @@ body {
     background: rgba(171, 171, 171, 0.02);
     display: block;
     /* margin-bottom: 40px; */
+    @media(max-width: 1024px){
+        width: 416px;
+    }
 }
 .card-title{
     width: 100%;
@@ -235,6 +258,9 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.92px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+    }
 }
 .card-txt{
     width: 100%;
@@ -250,6 +276,9 @@ body {
     margin-top: 57px;
     margin-right: 34.05px;
     margin-bottom: 34.05px;
+    @media(max-width: 1024px){
+        font-size: 45px;
+    }
 }
 .restaking-wrap{
     margin-top: 210px;
@@ -260,6 +289,10 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 550px;
+    @media(max-width: 1024px){
+        background: url(img/Section4-bg-1024.png) no-repeat;
+        background-size: contain;
+    }
 }
 .restaking{
     width: 88.9%;
@@ -270,7 +303,7 @@ body {
     /* gap: 137px; */
     @media (max-width: 768px) {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         margin-top: 50px;
     }
@@ -286,6 +319,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .restaking .text-block .text{
     width: 75%;
@@ -297,6 +333,9 @@ body {
     font-weight: 250;
     line-height: normal;
     letter-spacing: 1.92px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+    }
 }
 .img-block{
     display: flex;
@@ -313,6 +352,9 @@ body {
     margin-top: 102px;
     display: flex;
     justify-content: center;
+    @media(max-width: 1024px){
+        margin-top: 73px;
+    }
 }
 .advantages{
     width: 88.9%;
@@ -326,6 +368,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .advantages .text-grp .text{
     color: #FFF;
@@ -336,6 +381,9 @@ body {
     line-height: normal;
     letter-spacing: 1.92px;
     margin-top: 30px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+    }
 }
 .card-wrap{
     width: 100%;
@@ -343,6 +391,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+    
 }
 .info-card{
     border: 0.5px solid #FFF;
@@ -352,6 +401,10 @@ body {
     justify-content: center;
     align-items:center;
     margin-bottom: 23px;
+    @media(max-width: 1024px){
+        width: 290px;
+        height: 150px;
+    }
 }
 .info-card p{
     color: #FFF;
@@ -362,6 +415,9 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 2.56px;
+    @media(max-width: 1024px){
+        font-size: 23px;
+    }
 }
 #card1{
     background: url(img/bg1-dark.png) no-repeat;
@@ -409,6 +465,9 @@ body {
     width: 100%;
     display: flex;
     margin-top: 240px;
+    @media(max-width: 1024px){
+        margin-top: 170px;
+    }
 }
 .ecosystem{
     width: 88.9%;
@@ -417,7 +476,11 @@ body {
     background-size: cover;
     margin: auto;
     padding-top: 66px;
-    padding-bottom: 200px
+    padding-bottom: 200px;
+    @media(max-width: 1024px){
+        background: url(img/Section6-bg-1024.png) no-repeat;
+        background-size: auto;
+    }
 }
 .ecosystem .text-grp{
     width: 55.8%;
@@ -432,6 +495,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .ecosystem .text-grp .text{
     color: #FFF;
@@ -443,6 +509,9 @@ body {
     line-height: normal;
     letter-spacing: 1.92px;
     margin-top: 30px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+    }
 }
 .ecosystem .text-grp .number{
     color: #FFF;
@@ -454,6 +523,9 @@ body {
     line-height: normal;
     letter-spacing: 3.84px;
     margin-top: 30px;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .ecosystem .text-grp .subtitle{
     color: #FFF;
@@ -465,11 +537,17 @@ body {
     line-height: normal;
     letter-spacing: 1.92px;
     margin-top: 15px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+    }
 }
 .blog-wrap{
     width: 100%;
     display: block;
     justify-content: center;
+    @media(max-width: 1024px){
+        margin-top: 150px;
+    }
 }
 .blog{
     width: 88.9%;
@@ -490,6 +568,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
 }
 .btn-wrap{
     width: 140px;
@@ -533,6 +614,10 @@ body {
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0px 0px 51.442px 0px rgba(255, 255, 255, 0.05) inset;
     backdrop-filter: blur(18.156171798706055px);
+    @media(max-width: 1024px){
+        width: 280px;
+        height: 290px;
+    }
   }
   .post-card .card-title {
     margin-bottom: 15px;
@@ -579,6 +664,9 @@ body {
     align-items:center;
     justify-content: center;
     margin-top: 295px;
+    @media(max-width: 1024px){
+        margin-top: 210px;
+    }
   }
   .security{
     width: 88.9%;
@@ -592,6 +680,9 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 34px;
+    }
   }
   .security .text{
     color: #FFF;
@@ -601,6 +692,10 @@ body {
     font-weight: 250;
     line-height: normal;
     letter-spacing: 1.92px;
+    @media(max-width: 1024px){
+        font-size: 18px;
+        margin-top: 22px;
+    }
   }
   .logo-wrap{
     display: flex;
@@ -625,6 +720,9 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 267px;
+    @media(max-width: 1024px){
+        margin-top: 190px;;
+    }
   }
   .token-sale{
     width: 36%;
@@ -640,6 +738,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 28px;
+    }
   }
   .timer-wrap{
     width: 100%;
@@ -693,6 +794,9 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.12px;
+  }
+  .buy-btn a.disabled {
+    pointer-events: none;
   }
   .last-section-wrap{
     width: 100%;
@@ -756,4 +860,7 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    @media(max-width: 1024px){
+        font-size: 12px;
+    }
 }
