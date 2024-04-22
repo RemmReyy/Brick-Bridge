@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 (async () => {
-    const q = query(collection(db, 'posts'), orderBy("createdate", "desc"));
+    const q = query(collection(db, 'brikbridje-posts'), orderBy("createdate", "desc"));
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach(function (doc) {
         var data = doc.data();
