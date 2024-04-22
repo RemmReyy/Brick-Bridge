@@ -52,7 +52,7 @@ const db = getFirestore(app);
             prevEl: '.swiper-button-prev',
         },
         breakpoints:{
-            426:{
+            460:{
                 slidesPerView: 3,
                 spaceBetween: 30,
             }
