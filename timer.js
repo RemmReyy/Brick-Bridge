@@ -1,6 +1,6 @@
 
         // Установите дату и время окончания таймера
-        var endTime = new Date('2024-04-24T12:00:00Z').getTime();
+        var endTime = new Date('2024-04-26 6:00:00').getTime();
 
         // Обновление таймера каждую секунду
         var timerInterval = setInterval(function() {
@@ -20,6 +20,7 @@
             if (distance < 0) {
                 clearInterval(timerInterval);
                 document.getElementById('myLink').classList.remove('disabled');
+                document.getElementById('myBtn').style.display = 'block';
                 document.getElementById('dayT').innerHTML = '00';
             document.getElementById('hoursT').innerHTML = '00';
             document.getElementById('minutesT').innerHTML = '00';

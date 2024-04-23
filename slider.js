@@ -16,9 +16,9 @@ var firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-
+// brikbridje-
 (async () => {
-    const q = query(collection(db, 'brikbridje-posts'), orderBy("createdate", "desc"));
+    const q = query(collection(db, 'posts'), orderBy("createdate", "desc"));
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach(function (doc) {
         var data = doc.data();
@@ -52,9 +52,9 @@ const db = getFirestore(app);
             prevEl: '.swiper-button-prev',
         },
         breakpoints:{
-            460:{
+            821:{
                 slidesPerView: 3,
-                spaceBetween: 30,
+                spaceBetween: 50,
             }
         }
     });
