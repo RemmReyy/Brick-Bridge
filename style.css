@@ -1201,18 +1201,22 @@ body {
      }
   }
   .token-sale{
-    width: 36%;
+    /* width: 36%; */
+    width: 88.9%;
+    max-width: 1280px;
     display: block;
     align-items:center;
     justify-content: center;
     @media(max-width: 460px){
-       width: 60%; 
+       width: 90%; 
     }
     @media(max-width: 376px){
-        width: 80%;
+        width: 90%;
     }
   }
   .token-sale .title{
+    width: 40%;
+    margin: auto;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -1223,13 +1227,17 @@ body {
     @media(max-width: 1024px){
         font-size: 28px;
     }
+    @media(max-width: 768px){
+       width: 50%;
+     }
     @media(max-width: 460px){
-
+        width: 90%;
         font-size: 24px; 
     }
   }
   .timer-wrap{
-    width: 100%;
+    width: 40%;
+    /* margin: auto; */
     margin-top: 31px;
     border: 0.453px solid #FFF;
     display: flex;
@@ -1238,6 +1246,26 @@ body {
     @media(max-width: 768px){
         padding-bottom: 30px;
     }
+    @media(max-width: 462px){
+       width: 55%;
+     }
+  }
+  .logo-section-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .timer-logo{
+    width: 15%;
+    display: flex;
+    @media(max-width: 462px){
+       width: 20%;
+     }
+  }
+  .timer-logo img{
+    width: 100%;
+    object-fit: contain;
   }
   .timer-el{
     width: 121px;
@@ -1246,7 +1274,7 @@ body {
     align-items:center;
     margin-top: 53px;
     @media(max-width: 768px){
-       margin-top: 30px;;
+       margin-top: 30px;
     }
   }
   .timer-el .number{
